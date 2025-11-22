@@ -43,7 +43,7 @@ class MiClase:
                 return False
         return True
 
-
+#miau
 ################################################################################################
 # Ejemplo de ejecución
 #objeto = MiClase(5, 120, 12, ["Canción 1", "Canción 2", "Canción 3"], [0.8, 0.9, 0.7])
