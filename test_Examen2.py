@@ -35,12 +35,12 @@ class TestMiClase(unittest.TestCase):
     def test_ObtieneValencia_caso1(self):
         obj = MiClase(0, 0, 0, [], [])
         resultado = obj.ObtieneValencia(1234567)
-        self.assertEqual(resultado, 4)  # 1,3,5,7 son impares
+        self.assertEqual(resultado, 4) 
 
     def test_ObtieneValencia_caso2(self):
         obj = MiClase(0, 0, 0, [], [])
         resultado = obj.ObtieneValencia(24680)
-        self.assertEqual(resultado, 0)  # ningún dígito es impar
+        self.assertEqual(resultado, 0)  
 
     # ------------------------------
     # Pruebas para DivisibleTempo
@@ -53,7 +53,7 @@ class TestMiClase(unittest.TestCase):
     def test_DivisibleTempo_caso2(self):
         obj = MiClase(0, 0, 0, [], [])
         resultado = obj.DivisibleTempo(7)
-        self.assertEqual(resultado, [1, 7])  # 7 es primo
+        self.assertEqual(resultado, [1, 7]) 
 
 if __name__ == '_main_':
     unittest.main()
