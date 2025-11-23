@@ -53,7 +53,15 @@ class TestMiClase(unittest.TestCase):
     def test_DivisibleTempo_caso2(self):
         obj = MiClase(0, 0, 0, [], [])
         resultado = obj.DivisibleTempo(7)
-        self.assertEqual(resultado, [1, 7]) 
+        self.assertEqual(resultado, [1, 7])
+
+    def test_Encuentra_caso1(self):
+        obj = MiClase(0,0,0,[],[])
+        self.assertTrue(obj.Encuentra([1,2,3,4], 3))  
+
+    def test_Encuentra_caso2(self):
+        obj = MiClase(0,0,0,[],[])
+        self.assertFalse(obj.Encuentra([1,2,3,4], 5))
 
 if __name__ == '_main_':
     unittest.main()
