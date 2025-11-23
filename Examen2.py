@@ -43,11 +43,7 @@ class MiClase:
                 return False
         return True
     
-    def Encuentra(lista, elemento):
-        if elemento in lista:
-            return True
-        else:
-            return False
+   
 
 #miau
 ################################################################################################
